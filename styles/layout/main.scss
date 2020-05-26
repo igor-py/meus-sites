@@ -1,0 +1,12 @@
+// Mixin
+@import '../helpers/mixins.scss';
+
+#principal{
+
+    border: 2px solid chocolate;
+}
+
+.texto{
+
+    @include transforma-texto();
+}

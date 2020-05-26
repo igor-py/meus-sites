@@ -1,0 +1,28 @@
+// Mixin
+@import '../helpers/mixins.scss';
+
+#principal-footer{
+
+    border: 2px solid chartreuse;
+}
+
+#copyright{
+
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+}
+
+.logos-contatos{
+
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 350ms;
+
+    &:hover{
+
+        transform: scale(1.15);
+    }
+}

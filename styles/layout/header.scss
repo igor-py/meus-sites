@@ -1,0 +1,20 @@
+// Mixin
+@import '../helpers/mixins.scss';
+
+#principal-header{
+
+    border: 2px solid rebeccapurple;
+    padding-bottom: 20px;
+    
+}
+
+#titulo-principal{
+
+    padding-left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.links{
+
+    @include transforma-texto(#eb423f, 500ms);
+}

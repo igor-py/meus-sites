@@ -1,0 +1,17 @@
+// Mixin
+@import './helpers/mixins';
+
+// Basic
+@import './basic/reset';
+
+// Layout
+@import './layout/header';
+@import './layout/main.scss';
+@import './layout/footer.scss';
+
+// Whole Document
+html{
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e2e0de;
+}

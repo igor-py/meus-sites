@@ -1,0 +1,8 @@
+// All mixins goes here
+@mixin transforma-texto($cor: rgb(255, 184, 4), $tempo: 850ms) {
+    transition: $tempo;
+
+    &:hover{
+        color: $cor;
+    }
+}

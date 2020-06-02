@@ -1,130 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../styles/styles.css" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital@1&display=swap"
-			rel="stylesheet"
-		/>
-		<title>Meus Sites</title>
-	</head>
 
-	<body>
-		<header id="principal-header">
-			<h1 id="titulo-principal">Meus Sites</h1>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../styles/styles.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital@1&display=swap"
+		rel="stylesheet" />
+	<title>Meus Sites</title>
+</head>
 
-			<nav class="container-links">
-				<ul class="lista-header">
-					<li><a href="./index.html" class="links">Home</a></li>
-					<li><a href="./sobre.html" class="links">Sobre</a></li>
-					<li>
-						<a href="./projetos.html" class="links">Projetos</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+<body>
+	<header id="principal-header">
+		<h1 id="titulo-principal">Meus Sites</h1>
 
-		<main id="principal">
-			<div class="container-texto">
-				<div class="container-projetos">
-					<img
-						src="../images/projects/calc.png"
-						alt="Foto do projeto de calculadora feito em Python"
-						class="projeto-img"
-					/>
+		<nav class="container-links">
+			<ul class="lista-header">
+				<li><a href="./index.html" class="links">Home</a></li>
+				<li><a href="./sobre.html" class="links">Sobre</a></li>
+				<li>
+					<a href="./projetos.html" class="links">Projetos</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="principal">
+		<div class="container-texto">
+			<div class="container-projetos">
+				<img src="../images/projects/calc.png" alt="Foto do projeto de calculadora feito em Python"
+					class="projeto-img" />
+
+				<div class="container-textoprojeto">
+					<h2 class="subtitulo">Calculadora</h2>
 
 					<p class="texto">
 						Projeto de Calculadora utilizando a linguagem
-						<i>Python</i>, para a interface gráfica foi utilizada a
-						biblioteca <i>Tkinter</i>. Nesse projeto procurei
-						utilizar <em>Classes</em> para praticar o paradigma da
-						programação orientada à objeto, além de separar uma
-						classe para a lógica da calculadora e outra para
-						renderizar.
+						<i>Python</i>, para a interface gráfica foi
+						utilizada a biblioteca <i>Tkinter</i>. Nesse projeto
+						procurei utilizar <em>Classes</em> para praticar o
+						paradigma da programação orientada à objeto, além de
+						separar uma classe para a lógica da calculadora e
+						outra para renderizar.
 						<br />
 						<br />
 						Ao lado temos uma imagem de como ficou o aplicativo.
 						<br />
 						<br />
 						Para saber mais sobre o projeto
-						<em
-							><a href="https://github.com/igor-py/calculadora"
-								>Clique Aqui</a
-							></em
-						>
+						<em><a href="https://github.com/igor-py/calculadora" class="click-me">Clique Aqui</a></em>
 						e acesse o repositório com os códigos.
 					</p>
 				</div>
+			</div>
 
-				<div class="container-projetos">
-					<img
-						src="../images/projects/calc.png"
-						alt="Foto do projeto de calculadora feito em Python"
-						class="projeto-img"
-					/>
+			<div class="container-projetos">
+				<img src="../images/projects/guess_game.png" alt="Foto do projeto de jogo de advinho feito em Python"
+					class="projeto-img" />
+
+				<div class="container-textoprojeto">
+					<h2 class="subtitulo">Guess Game</h2>
 
 					<p class="texto">
-						Lorem ipsum dolor sit, amet consectetur adipisicing
-						elit. Omnis eaque suscipit accusantium eligendi nihil
-						modi architecto placeat quis repellat exercitationem,
-						magnam, sunt quod doloremque? Odit modi velit quae
-						quidem quaerat, delectus distinctio, inventore doloribus
-						aspernatur iste enim veritatis sint dolores temporibus
-						corporis perspiciatis itaque atque dicta ab iusto
-						pariatur vel.
+						Projeto de um jogo de advinho, no qual o jogador tem que acertar um número de 1 a 100.
+						O jogador tem direito à 10 tentativas e a cada chute, é impresso na tela, uma dica se o jogador
+						está perto ou longe do número correto.
 
-						<br />
-						<br />
-						Para saber mais sobre o projeto
-						<em
-							><a href="https://github.com/igor-py/guessgame"
-								>Clique Aqui</a
-							></em
-						>
+						<br>
+						<br>
+						<a href="https://github.com/igor-py/guessgame" class="click-me">Clique Aqui</a></em>
+						e acesse o repositório com os códigos.
 					</p>
 				</div>
 			</div>
-		</main>
 
-		<footer id="principal-footer">
-			<nav class="container-links">
-				<div class="invisivel">
-					Ícones feitos por
-					<a href="http://www.freepik.com" title="Freepik">Freepik</a>
-					from
-					<a href="https://www.flaticon.com/br/" title="Flaticon"
-						>www.flaticon.com</a
-					>
+			<div class="container-video">
+				<iframe class="video" src="https://www.youtube.com/embed/sUHORqKTd_k" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+
+
+				<div class="container-textoprojeto">
+					<h2 class="subtitulo">Professor Online</h2>
+
+					<p class="texto">
+						Nesse projeto construímos um site em 48h para o
+						<em><a href="https://hackingrio.com/hackinghelp/" class="click-me">Hacking Rio Help</a></em>
+						foi a minha primeira participação num <i>Hackathon</i> e a experiência que ganhei foi muito
+						importante
+						para a minha caminhada. Utilizamos <em>React</em> para desenvolver a plataforma,
+						além de <em>RESTful API</em> no <i>Backend</i> da aplicação.
+						<br>
+						<br>
+						O Aplicativo foi desenvolvido em conjunto com os devs listados abaixo
+					</p>
+
+					<ul class="lista-devs">
+						<li><a href="https://github.com/dougto" class="devs">Douglas Toledo</a></li>
+						<li><a href="https://github.com/leandrodeveng" class="devs">Leandro Trindade</a></li>
+						<li><a href="https://github.com/Vitor-Hub" class="devs">Vitor Santos</a></li>
+						<li><a href="https://github.com/mateusvale" class="devs">Mateus Allexandre</a></li>
+					</ul>
+
+					<p id="texto-devs">
+						<a href="https://github.com/igor-py/professor-online" class="click-me">Clique Aqui</a></em>
+						e acesse o repositório com os códigos.
+						<br>
+						<br>
+						Abaixo o vídeo explicando como funciona a plataforma
+					</p>
 				</div>
+	</main>
 
-				<div class="contatos-img">
-					<a href="https://www.linkedin.com/in/igor-marins-b88239113/"
-						><img
-							class="logos-contatos"
-							src="../images/logos/linkedin.svg"
-							alt="Logo do Linkedin"
-					/></a>
+	<footer id="principal-footer">
+		<nav class="container-links">
+			<div class="invisivel">
+				Ícones feitos por
+				<a href="http://www.freepik.com" title="Freepik">Freepik</a>
+				from
+				<a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>
+			</div>
 
-					<a href="https://github.com/igor-py"
-						><img
-							class="logos-contatos"
-							src="../images/logos/github.svg"
-							alt="Logo do Github"
-					/></a>
+			<div class="contatos-img">
+				<a href="https://www.linkedin.com/in/igor-marins-b88239113/"><img class="logos-contatos"
+						src="../images/logos/linkedin.svg" alt="Logo do Linkedin" /></a>
 
-					<a href="https://www.instagram.com/marins.igor/">
-						<img
-							class="logos-contatos"
-							src="../images/logos/instagram.svg"
-							alt="Logo do Instagram"
-						/>
-					</a>
-				</div>
+				<a href="https://github.com/igor-py"><img class="logos-contatos" src="../images/logos/github.svg"
+						alt="Logo do Github" /></a>
 
-				<p id="copyright">Igor Marins ©</p>
-			</nav>
-		</footer>
-	</body>
+				<a href="https://www.instagram.com/marins.igor/">
+					<img class="logos-contatos" src="../images/logos/instagram.svg" alt="Logo do Instagram" />
+				</a>
+			</div>
+
+			<p id="copyright">Igor Marins ©</p>
+		</nav>
+	</footer>
+</body>
+
 </html>

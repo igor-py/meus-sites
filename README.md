@@ -5,7 +5,7 @@
 <h3>Sobre:</h3>
 
 <p>Aqui colocarei o site que estou desenvolvendo, será um site
-pessoal com Softwares que eu mesmo desenovlver, tudo isso utilizando conhecimentos de <i>Front-end</i> e <i>Back-end</i> que aprendi no processo.</p>
+pessoal com Softwares que eu mesmo desenvolver, tudo isso utilizando conhecimentos de <i>Front-end</i> e <i>Back-end</i> que aprendi no processo.</p>
 
 <h4>Contato:</h4>
     

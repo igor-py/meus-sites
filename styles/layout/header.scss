@@ -1,20 +1,34 @@
 // Mixin
-@import '../helpers/mixins.scss';
+@import "../helpers/mixins.scss";
 
-#principal-header{
-
-    border: 2px solid rebeccapurple;
-    padding-bottom: 20px;
-    
+#principal-header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 5%;
 }
 
-#titulo-principal{
-
-    padding-left: 20px;
-    font-family: 'Playfair Display', serif;
+#titulo-principal {
+    font-family: "Playfair Display", serif;
 }
 
-.links{
+#principal-header .container-links {
+    display: flex;
+}
 
+.lista-header {
+    padding-left: 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista-header li{
+    list-style-type: none;
+}
+
+.links {
     @include transforma-texto(#eb423f, 500ms);
+    text-decoration: none;
 }

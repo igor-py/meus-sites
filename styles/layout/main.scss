@@ -1,12 +1,26 @@
 // Mixin
-@import '../helpers/mixins.scss';
+@import "../helpers/mixins.scss";
 
-#principal{
-
-    border: 2px solid chocolate;
+#principal {
+    display: flex;
+    text-align: justify;
 }
 
-.texto{
+.texto {
+    // Mixin podendo receber parâmetros, consultar na pasta ../helpers/mixins
+    @include transforma-texto(#eb423f, 1000ms);
+    margin: 40px 20px;
+    &:hover{
+        transform: scale(1.02);
+        font-weight: bolder;
+    }
+}
 
-    @include transforma-texto();
+.container-links li {
+    list-style-type: none;
+}
+
+.invisivel {
+    font-size: 12px;
+    font-weight: bold;
 }

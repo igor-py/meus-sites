@@ -2,25 +2,47 @@
 @import "../helpers/mixins.scss";
 
 #principal-footer {
-    margin-top: 15px;
+    background-color: $header-color;
+    height: 13vh;
+    width: 100%;
+    margin-bottom: 0px;
 }
 
-.container-links{
+.container-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
-#copyright {
-    font-weight: bold;
-    font-size: 16px;
-    margin-right: 20px;
-    align-self: flex-end;
+.container-logos {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.contatos-img{
+.invisivel {
+    font-family: $font-textos;
+    color: $text-color;
+    font-size: 0.6em;
+}
+
+#copyright {
+    font-family: $font-textos;
+    color: $text-color;
+    font-weight: bold;
+    align-self: flex-end;
+    margin: 0;
+    padding-right: 2vw;
+}
+
+.contatos-img {
     display: flex;
+    justify-content: space-around;
+    width: 80%;
 }
 
 .logos-contatos {

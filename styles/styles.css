@@ -490,7 +490,6 @@ abbr {
 .texto {
   text-align: justify;
   font-family: "Quicksand", sans-serif;
-  color: "Quicksand", sans-serif;
   line-height: 1.4em;
   text-indent: 1.2em;
   margin: 0;
@@ -624,4 +623,47 @@ abbr {
 }
 .logos-contatos:hover {
   transform: scale(1.15);
+}
+
+.container-sobre {
+  background-color: #f1f7ed;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: fit-content;
+}
+
+.foto {
+  grid-row: 1/1;
+  background-color: #f1f7ed;
+  color: #1c1b18;
+  padding: 1.6em 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobre-texto {
+  grid-row: 2/2;
+  background-color: #af9b46;
+  color: #1c1b18;
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.titulo-projeto {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.container-descricao {
+  width: 70%;
+  padding: 1.2em;
+  border: 0.1px ridge #1c1b18;
+  -moz-border-radius: 1.1em;
+  -webkit-border-radius: 1.1em;
+  border-radius: 1.1em;
 }

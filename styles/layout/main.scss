@@ -5,6 +5,11 @@ img {
 	max-width: 100%;
 }
 
+abbr {
+	text-decoration: none;
+	border: none;
+}
+
 .intro {
 	background-color: $main-color;
 }
@@ -22,21 +27,25 @@ img {
 	padding: 1.5em 1.3em;
 }
 
+.container-texto .subtitulo {
+	padding-bottom: 1.2em;
+}
+
 .subtitulo {
 	font-family: $font-textos;
-	font-size: 1.5em;
+	font-size: 1.6em;
 	margin-bottom: 0;
 	color: $text-color;
 }
 
 .texto {
 	// Mixin podendo receber parâmetros, consultar na pasta ../helpers/mixins
-	transition: 500ms;
-	padding: 1em 2em;
 	text-align: justify;
 	font-family: $font-textos;
 	color: $font-textos;
 	line-height: 1.4em;
+	text-indent: 1.2em;
+	margin: 0;
 }
 
 .container-links li {
@@ -65,8 +74,9 @@ img {
 .container-textos {
 	grid-column: 2/2;
 	display: flex;
-	justify-content: flex-start;
-	align-content: space-around;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 	padding: 1.1em 1.1em;
 	margin-right: 1.5em;
 }
@@ -75,7 +85,7 @@ img {
 	grid-column: 1/1;
 	grid-row: 1/1;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	padding: 1.1em 1.1em;
 }
 
@@ -83,19 +93,33 @@ img {
 	grid-column: 1 / 1;
 	grid-row: 2 / 2;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
+	padding: 1.1em 1.1em;
+}
+
+.titulo-projeto {
+	text-align: justify;
+	font-family: $font-textos;
+	color: $font-textos;
+	font-size: 1.3em;
+	margin: 0;
+	align-self: center;
 }
 
 .video {
 	padding-top: 1.5em;
 	width: 400px;
 	height: 441px;
+	max-width: 100%;
 }
 
 .texto-video {
 	grid-row: 2 / 2;
 	grid-column: 2 / 2;
 	display: flex;
-	align-items: flex-start;
+	flex-direction: column;
 	justify-content: center;
+	align-items: flex-start;
+	padding: 1.1em 1.1em;
+	margin-right: 1.5em;
 }

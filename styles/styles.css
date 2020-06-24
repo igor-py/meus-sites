@@ -445,6 +445,7 @@ th {
 .links {
   transition: 500ms;
   text-decoration: none;
+  color: #1c1b18;
 }
 .links:hover {
   color: #98473e;
@@ -472,12 +473,13 @@ abbr {
 .container-texto {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1.5em 1.3em;
+  align-items: flex-start;
+  padding: 1.5em 1.7em;
 }
 
 .container-texto .subtitulo {
   padding-bottom: 1.2em;
+  align-self: center;
 }
 
 .subtitulo {
@@ -671,7 +673,7 @@ abbr {
 #principal-contato {
   display: grid;
   grid-template-rows: 25% 75%;
-  height: 100vh;
+  height: 110vh;
   background-color: #f1f7ed;
 }
 
@@ -701,17 +703,17 @@ abbr {
 }
 
 .titulo-contato {
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 .texto-contato {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .container-form {
   width: 75%;
-  height: 90%;
+  height: 100%;
   text-align: center;
   display: grid;
   grid-template-rows: 20% 20% 50% 10%;
@@ -743,4 +745,17 @@ abbr {
 }
 .button:hover {
   transform: scale(1.2);
+}
+
+.input-padrao {
+  width: 322px;
+  height: 38px;
+  border-radius: 12px;
+  border-style: none;
+  text-align: center;
+}
+
+.input-msg {
+  width: 480px;
+  height: 243px;
 }

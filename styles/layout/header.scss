@@ -50,4 +50,5 @@
 .links {
     @include transforma-texto($support-color2, 500ms);
     text-decoration: none;
+    color: $text-color;
 }
